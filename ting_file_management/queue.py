@@ -23,14 +23,3 @@ class Queue:
 		if 0 <= index < len(self._queue):
 			return self._queue[index]
 		raise IndexError('index not found')
-
-			
-
-
-
-if __name__ == '__main__':
-	queue = Queue()
-
-	queue.enqueue(42)
-	test = queue.search(1)
-	print(test)
