@@ -11,7 +11,7 @@ def txt_importer(path_file):
                     read_file.append(file.replace('\n', ''))
 
             return read_file
-        if not path_file.endswith('.txt') :
+        else:
             print('Formato inválido', file=sys.stderr)
     except FileNotFoundError:
         print(f'Arquivo {path_file} não encontrado', file=sys.stderr)
