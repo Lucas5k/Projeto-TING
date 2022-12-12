@@ -29,4 +29,3 @@ def exists_word(word, queue: Queue):
 
 def search_by_word(word, queue: Queue):
     """Aqui irá sua implementação"""
-
