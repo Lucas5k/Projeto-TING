@@ -14,7 +14,3 @@ def txt_importer(path_file):
             print('Formato inválido', file=sys.stderr)
     except FileNotFoundError:
         print(f'Arquivo {path_file} não encontrado', file=sys.stderr)
-
-if __name__ == '__main__':
-    files = "statics/arquivo_teste.json"
-    txt_importer(files)
