@@ -27,5 +27,5 @@ def exists_word(word, queue: Queue):
         return list_of_exists_word
 
 
-def search_by_word(word, queue: Queue):
+def search_by_word(word, queue):
     """Aqui irá sua implementação"""
