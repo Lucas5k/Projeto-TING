@@ -36,4 +36,4 @@ def file_metadata(queue: Queue, position):
         result = queue.search(position)
         print(f"{result}", file=sys.stdout)
     except IndexError:
-        print(f"Posição inválida", file=sys.stderr)
+        print("Posição inválida", file=sys.stderr)
