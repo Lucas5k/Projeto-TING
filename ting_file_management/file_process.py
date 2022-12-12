@@ -31,8 +31,13 @@ def remove(queue: Queue):
 
 
 
-def file_metadata(instance, position):
+def file_metadata(queue: Queue, position):
     """Aqui irá sua implementação"""
+    try:
+        result = queue.search(position)
+        print(f"{result}", file=sys.stdout)
+    except:
+        print(f"Posição inválida", file=sys.stderr)
 
 
 if __name__ == '__main__':
