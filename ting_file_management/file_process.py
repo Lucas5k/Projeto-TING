@@ -25,7 +25,6 @@ def remove(queue: Queue):
         return sys.stdout.write("Não há elementos\n")
 
     remove = queue.dequeue()
-    print(remove)
     path_file = remove["nome_do_arquivo"]
     print(f"Arquivo {path_file} removido com sucesso", file=sys.stdout)
 
