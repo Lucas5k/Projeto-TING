@@ -1,7 +1,7 @@
 # Projeto-Trybe-is-not-Google(TING)
 
 ## :memo: Descrição
-<p>Esse foi o meu quinto projeto no módulo de Ciência da Computação. Neste projeto eu implementei um programa que simule um algoritmo de indexação de documentos similar ao do Google. O programa capaz de identificar ocorrências de termos em arquivos TXT. Reforçando também conceitos com: Manipular Pilhas, Manipular Deque, Manipular Nó & Listas Ligadas e, Manipular Listas Duplamente Ligadas</p>
+<p>Esse foi o meu quinto projeto no módulo de Ciência da Computação. Neste projeto eu implementei um programa que simule um algoritmo de indexação de documentos similar ao do Google. O programa capaz de identificar ocorrências de termos em arquivos TXT. Reforçando também conceitos como: Manipular Pilhas, Manipular Deque, Manipular Nó & Listas Ligadas e, Manipular Listas Duplamente Ligadas</p>
 
 ## :books: Funcionalidades
 <ol><b>Funcionalidade 1</b>: Módulo de gerenciamento de arquivos que permite anexar arquivos de texto (formato TXT)</ol>
